@@ -10,3 +10,4 @@ sudo apt-get install ros-<distro>-laser-filters
 使用laser_filters
 一、运行相应节点，保证ros2 topic中话题/scan正在更新
 二、最简单的使用，cd到laser_filters的example目录，ros2 launch 相应laser_filters的相关launch文件，通过相应的yaml文件可以修改滤波的范围与效果
+三、通过rivz2查看
